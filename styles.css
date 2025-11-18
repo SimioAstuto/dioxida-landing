@@ -747,13 +747,14 @@ tbody td {
   }
 
   .nav {
-    margin-left: auto;
+    margin-left: 0;
     display: flex;
     gap: 18px;
     font-size: 14px;
     padding: 6px 0;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center; /* centramos los links en responsive */
+    width: 100%;
   }
 
   .footer-main {
@@ -792,7 +793,7 @@ tbody td {
 
   .nav {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center; /* centrado también en móviles chicos */
     gap: 14px;
     padding-top: 4px;
     padding-bottom: 6px;
@@ -804,6 +805,7 @@ tbody td {
     border-radius: 8px;
     background: rgba(255,255,255,0.6);
     border: 1px solid rgba(13, 71, 161, 0.15);
+    text-align: center;
   }
 
   .nav a:hover {
