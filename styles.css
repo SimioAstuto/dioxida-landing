@@ -703,9 +703,8 @@ tbody td {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .hero-card {
-    order: -1;
-  }
+  /* Quitamos el order:-1 para respetar la jerarquía:
+     primero "Bioseguridad integral...", luego "Aplicaciones principales" */
 
   .topbar-inner {
     gap: 12px;
